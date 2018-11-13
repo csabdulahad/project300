@@ -1,11 +1,22 @@
 <resources>
+    
+    <!-- as we need to support material design, so we need no action bar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="toolbarStyle">@style/ToolBar</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+
+    <style name="ToolBar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
     </style>
 
 </resources>

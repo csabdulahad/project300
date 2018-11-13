@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+
+        <item android:title="@string/tools">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_vaccine"
+                        android:icon="@drawable/ic_vaccine"
+                        android:title="@string/vaccine_scheduler" />
+
+                    <item
+                        android:id="@+id/nav_blood"
+                        android:icon="@drawable/ic_blood"
+                        android:title="@string/blood_test" />
+
+                    <item
+                        android:id="@+id/nav_bmi"
+                        android:icon="@drawable/ic_calculator"
+                        android:title="@string/bmi" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/learn">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_first_aid"
+                        android:icon="@drawable/ic_first_aid"
+                        android:title="@string/first_aid" />
+
+                    <item
+                        android:id="@+id/nav_awareness"
+                        android:icon="@drawable/ic_awareness"
+                        android:title="@string/awareness" />
+                </group>
+            </menu>
+        </item>
+
+        <group android:id="@+id/group2">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about" />
+        </group>
+
+    </group>
+</menu>

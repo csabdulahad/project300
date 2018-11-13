@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">DehoGhori</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Drawer close</string>
+
+    <string name="navigation_background">Navigation Background</string>
+    <string name="home">Home</string>
+    <string name="vaccine_scheduler">Vaccine Scheduler</string>
+    <string name="blood_test">Blood Test</string>
+    <string name="bmi">BMI</string>
+    <string name="first_aid">First Aid</string>
+    <string name="awareness">Awareness</string>
+    <string name="learn">Learn</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="tools">Tools</string>
 </resources>
