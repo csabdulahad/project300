@@ -181,4 +181,6 @@ public class WelcomeActivity extends AppCompatActivity {
     private boolean isDrawerLayoutOpened() {
         return mDrawerLayout.isDrawerOpen(GravityCompat.START);
     }
+
+    //From Jobair Joty
 }
