@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import java.util.Objects;
+
 import tk.dehoghori.dehoghori.data.Key;
 import tk.dehoghori.dehoghori.fragment.HomeFragment;
 import tk.dehoghori.dehoghori.fragment.VaccineFragment;
@@ -168,17 +170,19 @@ public class WelcomeActivity extends AppCompatActivity {
 
         // now append the tittle
         titleBuilder.append(title);
-        getSupportActionBar().setTitle(titleBuilder.toString());
+
+        // SupportActionBar(SAB) can be null. so we assert that SAB is not null before we access it
+        Objects.requireNonNull(getSupportActionBar()).setTitle(titleBuilder.toString());
     }
 
-    private boolean closeDrawerLayout() {
+    private void closeDrawerLayout() {
         if (mDrawerLayout == null)
-            return false;
+            return;
         mDrawerLayout.closeDrawer(GravityCompat.START);
-        return true;
     }
 
     private boolean isDrawerLayoutOpened() {
         return mDrawerLayout.isDrawerOpen(GravityCompat.START);
     }
+
 }
