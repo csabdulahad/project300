@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deho_ghori"
+        android:textAlignment="center"
+        android:textColor="?attr/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="This app helps you manage and practice a healthy life. It is still under construction. So some functions might not work as expected." />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/day"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/month"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/year"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sexFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female" />
+
+        <RadioButton
+            android:id="@+id/sexMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/male" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/bloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/blood_group"
+        android:inputType="textPersonName" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:onClick="register"
+        android:text="@string/get_started" />
+</LinearLayout>
