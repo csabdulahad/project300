@@ -14,4 +14,25 @@
     <string name="settings">Settings</string>
     <string name="about">About</string>
     <string name="tools">Tools</string>
+
+    <!-- Twenty First Project -->
+    <string name="cd_twenty_first_project">The twenty first project image</string>
+    <string name="message_21">International Mother Language Day</string>
+    <string name="message_26">Independence Day Of Bangladesh</string>
+    <string name="message_16">Victory Day Of Bangladesh</string>
+    <string name="learn_more">Learn More</string>
+    <string name="link_international_mother_language_day">https://en.wikipedia.org/wiki/International_Mother_Language_Day</string>
+    <string name="link_independence_day">https://en.wikipedia.org/wiki/Bangladesh_Liberation_War</string>
+    <string name="link_victory_day">https://en.wikipedia.org/wiki/Victory_day_of_Bangladesh</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="get_started">Get Started</string>
+    <string name="deho_ghori">DEHO-GHORI</string>
+
 </resources>
