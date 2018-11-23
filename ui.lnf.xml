@@ -1,0 +1,12 @@
+<application>
+  <component name="UISettings">
+    <option name="FONT_FACE" value="Verdana" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="FONT_SIZE" value="11" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="26" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="smoothScrolling" value="true" />
+  </component>
+</application>
